@@ -11,7 +11,7 @@ public class Days5 {
 
         // kalau pakai double akhirannya ngk usah ada huruf
 
-        double Tinggibadan = 168;
+        double Tinggibadan = 1.68;
 
         // rumus menghitung BMI: berat badan di bagi (tinggi badan * tinggi badan)
         double bmi = Beratbadan / (Tinggibadan * Tinggibadan);
@@ -22,7 +22,7 @@ public class Days5 {
 
         // menampilkan hasil berat badan, tinngi badan, dan BMI ke layar
         System.out.println("Berat Badan (float)\t: " + Beratbadan + "kg");
-        System.out.println("Tinggi Badan (double)\t: " + Tinggibadan + "cm");
+        System.out.println("Tinggi Badan (double)\t: " + Tinggibadan + "m");
         System.out.println("======================");
         System.out.println("BMI\t\t\t: " + bmi);
         System.out.println("======================");
