@@ -1,4 +1,4 @@
-public class Days010 {
+public class Days10 {
     public static void main(String[] args) {
         System.out.println("=== BATAS MINIMAL DAN MAKSIMAL TIPE DATA ===");
         /* konstanta MIN_VALUE digunakan untuk  melihat  batas minimal pada jenis data
