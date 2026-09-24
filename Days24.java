@@ -8,7 +8,6 @@ public class Days24 {
 
         System.out.print("Masukkan Panjang:");
         panjang = input.nextInt();
-        input.nextLine();
 
         System.out.print("Masukkan Lebar:");
         lebar = input.nextInt();
