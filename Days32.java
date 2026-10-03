@@ -14,7 +14,7 @@ public class Days32 {
         a++;
         System.out.println("Hasil penjumlahan:" + a);
         b--;
-        System.out.println("Hasil pengurangan:" + b);
+        System.out.println("Hasil pengurangan:" - b);
         System.out.println("Apakah a lebih besar dari b: " + (a > b));
         System.out.println("Apakah a lebih kecil dari b: " + (a < b));
         System.out.println("Apakah a dan b sama sama besar: " + (a == b));
