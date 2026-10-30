@@ -1,0 +1,22 @@
+import java.util.Scanner;
+
+public class Days59 {
+    public static void main(String[] args) {
+        Scanner input = new Scanner(System.in);
+
+        System.out.print("Masukkan batas angka N: ");
+        int n = input.nextInt();
+
+        System.out.print("Masukkan angka M: ");
+        int m = input.nextInt();
+
+        System.out.println("Bilangan kelipatan " + m + " dari 1 sampai " + n + ":");
+        for (int i = 1; i <= n; i++) {
+            if (i % m == 0) {
+                System.out.print(i + " ");
+            }
+        }
+
+        input.close();
+    }
+}
